@@ -9,10 +9,14 @@ import SliderImg from './components/SliderImg';
 function App() {
   return (
     <div className="app">
-      <header className="header">
-        Sliding Carousel for Instrument
-      </header>
-      <main className="main">
+      <h1>Instrument Slider</h1>
+      <main
+        className="main"
+        style={{
+          margin: '0 auto',
+          width: '85%',
+          paddingBottom: '100px'
+        }}>
         <Slider
           intervalSeconds={10}
           transitionMs={500}>
