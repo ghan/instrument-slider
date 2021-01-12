@@ -18,3 +18,6 @@ Notes:
 - Normally I'd use a CSS-in-JS pattern for styling, leveraging a library like `styled-components`. Since third party libraries are not allowed, I styled in CSS.
 - To comply with WCAG, I consulted the documentation here https://www.w3.org/WAI/tutorials/carousels/
 - PropTypes is included for basic type checking. 
+
+Edge Cases:
+- if you click forward or backward very quickly, the animation goofs.
